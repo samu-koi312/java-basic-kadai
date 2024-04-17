@@ -3,12 +3,12 @@ package kadai_015;
 //車クラス
 public class Car_Chapter15 {
 	
-	private int gear;
-	private int speed;
+	private int gear = 1;
+	private int speed = 10;
 	
 	public Car_Chapter15(int gear, int speed) {
-		this.gear = gear = 1;
-		this.speed = speed = 10;
+		this.gear = gear;
+		this.speed = speed;
 	}
 	
 	public void gearChange(int afterGear) {
