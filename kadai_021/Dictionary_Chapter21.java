@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Dictionary_Chapter21 {
 	HashMap<String,String> engDictionary = new HashMap<String,String>();
 	
-		public void engDictionary() {
+		public void engDictionary(String[] word) {
 		
 			engDictionary.put("apple","りんご");
 			engDictionary.put("peach","桃");
@@ -18,9 +18,6 @@ public class Dictionary_Chapter21 {
 			engDictionary.put("muscat","マスカット");
 			engDictionary.put("cherry","さくらんぼ");
 			
-		}
-	
-		public void setWordAndSearch(String[] word) {
 			for (int i = 0 ; i < word.length ; i++) {
 				if(engDictionary.containsKey(word[i])) {
 					String wordmeaning = engDictionary.get(word[i]);
@@ -30,5 +27,4 @@ public class Dictionary_Chapter21 {
 				}
 			}
 		}
-
 }
