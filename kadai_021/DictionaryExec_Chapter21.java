@@ -4,11 +4,9 @@ public class DictionaryExec_Chapter21 {
 	public static void main(String[] args) {
 		Dictionary_Chapter21 dictionary = new Dictionary_Chapter21();
 		
-		String word[] = {"peach","muscat","cherry","cat"};
-		
-		dictionary.engDictionary();
-		
-		dictionary.setWordAndSearch(word);
+		String word[] = {"apple","banana","grape","orange"};
+
+		dictionary.engDictionary(word);
 		
 	}
 }
